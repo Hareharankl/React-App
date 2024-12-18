@@ -19,10 +19,6 @@ metadata:
   name: react-app
   labels:
     app: react-app
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: external
-    service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: ip
-    service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
 spec:
   ports:
   - port: 80
@@ -30,4 +26,4 @@ spec:
     protocol: TCP
   selector:
     app: react-app
-  type: LoadBalancer
+  type: ClusterIP
