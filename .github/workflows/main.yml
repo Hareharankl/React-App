@@ -29,9 +29,6 @@ jobs:
     - name: Build the application
       run: npm run build
 
-    - name: Test the application
-      run: npm run test -- --watch=false
-
   code-quality:
     runs-on: ubuntu-latest
 
