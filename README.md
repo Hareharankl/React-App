@@ -1,1 +1,1 @@
-Here, I developed a simple Vite + React App and perform containerization using Docker. I pushed the docker image into EKS Cluster and deploy the application ArgoCD a GitOps tool. 
+Here, I developed a simple Vite + React App and perform containerization using Docker. I created a EKS Cluster using AWS CLI. Im using using Github Action workflow which Build the application, Check the code quality, push the docker image into dockerhub and update the tag into helm chart file. I'm deployed the application ArgoCD a GitOps tool. 
