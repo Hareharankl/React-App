@@ -30,7 +30,7 @@ jobs:
       run: npm run build
 
     - name: Test the application
-      run: npm test
+      run: npm run test
 
   code-quality:
     runs-on: ubuntu-latest
