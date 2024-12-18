@@ -4,7 +4,7 @@ image:
   repository: harekl14/myapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "12391027286"
+  tag: "12392538478"
 
 ingress:
   enabled: false
