@@ -30,4 +30,4 @@ spec:
     protocol: TCP
   selector:
     app: react-app
-  type: Loadbalancer
+  type: LoadBalancer
